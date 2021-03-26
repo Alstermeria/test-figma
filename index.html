@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <label class="logo">Шапка сайта</label>
+    </nav>
+    <form>
+      <div class="inputWithIcon">
+        <input
+          type="text"
+          placeholder="Запрос пользователя"
+          class="input-search"
+        />
+        <i class="fas fa-search" aria-hidden="true"></i>
+      </div>
+      <button class="btn-find" type="submit">Поиск</button>
+      <button class="btn-close" type="submit">Закрыть</button>
+    </form>
+    <div class="search-text">
+      <h5>Результаты по поиску</h5>
+      <span class="search-body"
+        >Показаны результаты для "Запроса пользователя". Вы искали "<em
+          >Запрос</em
+        >
+        пользователя".</span
+      >
+    </div>
+    <div class="box-top">
+      <div class="box one">
+        <img src="img/img.jpg" alt="img" width="60" class="box-img" />
+        <p class="box-title">Название категории</p>
+        <p class="box-body">134 товара</p>
+      </div>
+      <div class="box two">
+        <img src="img/img.jpg" alt="img" width="60" class="box-img" />
+        <p class="box-title">Название категории</p>
+        <p class="box-body">134 товара</p>
+      </div>
+      <div class="box three">
+        <img src="img/img.jpg" alt="img" width="60" class="box-img" />
+        <p class="box-title">Название категории</p>
+        <p class="box-body">134 товара</p>
+      </div>
+      <div class="box four">
+        <img src="img/img.jpg" alt="img" width="60" class="box-img" />
+        <p class="box-title">Название категории</p>
+        <p class="box-body">134 товара</p>
+      </div>
+      <div class="box five">
+        <img src="img/img.jpg" alt="img" width="60" class="box-img" />
+        <p class="box-title">Название категории</p>
+        <p class="box-body">134 товара</p>
+      </div>
+    </div>
+    <section>
+      <div class="content">
+        <div class="list-group">
+          <p class="list-item">Все категории</p>
+          <a href="#" class="list-group-item"
+            >Категория в которой нашли что-то
+            <span class="cat-min">(ххх)</span></a
+          >
+          <a href="#" class="list-group-item"
+            >Категория в которой нашли что-то
+            <span class="cat-min">(ххх)</span></a
+          >
+          <a href="#" class="list-group-item"
+            >Категория в которой нашли что-то
+            <span class="cat-min">(ххх)</span></a
+          >
+          <a href="#" class="list-group-item"
+            >Категория в которой нашли что-то
+            <span class="cat-min">(ххх)</span></a
+          >
+          <a href="#" class="list-group-item"
+            >Категория в которой нашли что-то
+            <span class="cat-min">(ххх)</span></a
+          >
+          <a href="#" class="list-group-item group-none"
+            >Категория в которой нашли что-то
+            <span class="cat-min">(ххх)</span></a
+          >
+          <a href="#" class="list-group-item group-none"
+            >Категория в которой нашли что-то
+            <span class="cat-min">(ххх)</span></a
+          >
+          <a href="#" class="list-group-item group-none"
+            >Категория в которой нашли что-то
+            <span class="cat-min">(ххх)</span></a
+          >
+          <a href="#" class="list-group-item">Ещё 10 категорий...</a>
+          <div class="cost-group">
+            <p><b>Цена, валюта</b></p>
+            от
+            <input
+              id="id66i1"
+              class="range_inpt1"
+              type="number"
+              min="1000"
+              max="1000000"
+            />
+            до
+            <input
+              id="id66i2"
+              class="range_inpt2"
+              type="number"
+              min="1000"
+              max="1000000"
+            />
+            p
+            <div id="id66" class="range">
+              <div id="id66b" class="range__between"></div>
+              <button id="id661" class="range__button_1"></button>
+              <button id="id662" class="range__button_2"></button>
+            </div>
+          </div>
+          <div class="brend-group">
+            <p><b>Бренды</b></p>
+            <a href="#"><span class="right-brend-title">Очистить</span></a>
+            <label class="container"
+              >Бренд <span class="cat-min">(ххх)</span>
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container"
+              >Бренд <span class="cat-min">(х)</span>
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container"
+              >Бренд <span class="cat-min">(х ххх)</span>
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="products">
+          <div class="down">
+            <form action="" method="POST">
+              <span>Сортировать по:</span>
+              <a href="#" class="list-card-group">популярности</a>
+              <a href="#" class="list-card-group">сначала дешевые</a>
+              <a href="#" class="list-card-group">сначала дорогие</a>
+
+              <span class="right">показывать по: </span>
+              <select name="form_select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option selected="selected" value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </form>
+          </div>
+          <div class="group-btn-item">
+            <button class="top-group-btn">Уточнение</button>
+            <button class="top-group-btn">Уточнение</button>
+            <button class="top-group-btn">Уточнение</button>
+            <button class="top-group-btn">Уточнение</button>
+          </div>
+          <div class="product-card">
+            <div class="product">
+              <div class="product-img">
+                <a href="#"
+                  ><img src="img/img.jpg" alt="" class="product-img-card"
+                /></a>
+              </div>
+              <p class="product-title">
+                <a href="#">Наименование товара, которое не более 2 строк</a>
+              </p>
+              <p class="product-price">
+                ХХ ХХХ , $ <span class="price-min">ХХ ХХХ $</span>
+              </p>
+              <button class="product-btn"><b>Кнопка</b></button>
+            </div>
+            <div class="product">
+              <div class="product-img">
+                <a href="#"
+                  ><img src="img/img.jpg" alt="" class="product-img-card"
+                /></a>
+              </div>
+              <p class="product-title">
+                <a href="#">Наименование товара, которое не более 2 строк</a>
+              </p>
+              <p class="product-price">
+                ХХ ХХХ , $ <span class="price-min">ХХ ХХХ $</span>
+              </p>
+              <button class="product-btn"><b>Кнопка</b></button>
+            </div>
+            <div class="product">
+              <div class="product-img">
+                <a href="#"
+                  ><img src="img/img.jpg" alt="" class="product-img-card"
+                /></a>
+              </div>
+              <p class="product-title">
+                <a href="#">Наименование товара, которое не более 2 строк</a>
+              </p>
+              <p class="product-price">
+                ХХ ХХХ , $ <span class="price-min">ХХ ХХХ $</span>
+              </p>
+              <button class="product-btn"><b>Кнопка</b></button>
+            </div>
+            <div class="product">
+              <div class="product-img">
+                <a href="#"
+                  ><img src="img/img.jpg" alt="" class="product-img-card"
+                /></a>
+              </div>
+              <p class="product-title">
+                <a href="#">Наименование товара, которое не более 2 строк</a>
+              </p>
+              <p class="product-price">
+                ХХ ХХХ , $ <span class="price-min">ХХ ХХХ $</span>
+              </p>
+              <button class="product-btn"><b>Кнопка</b></button>
+            </div>
+            <div class="product">
+              <div class="product-img">
+                <a href="#"
+                  ><img src="img/img.jpg" alt="" class="product-img-card"
+                /></a>
+              </div>
+              <p class="product-title">
+                <a href="#">Наименование товара, которое не более 2 строк</a>
+              </p>
+              <p class="product-price">
+                ХХ ХХХ , $ <span class="price-min">ХХ ХХХ $</span>
+              </p>
+              <button class="product-btn"><b>Кнопка</b></button>
+            </div>
+            <div class="product">
+              <div class="product-img">
+                <a href="#"
+                  ><img src="img/img.jpg" alt="" class="product-img-card"
+                /></a>
+              </div>
+              <p class="product-title">
+                <a href="#">Наименование товара, которое не более 2 строк</a>
+              </p>
+              <p class="product-price">
+                ХХ ХХХ , $ <span class="price-min">ХХ ХХХ $</span>
+              </p>
+              <button class="product-btn"><b>Кнопка</b></button>
+            </div>
+            <div class="product">
+              <div class="product-img">
+                <a href="#"
+                  ><img src="img/img.jpg" alt="" class="product-img-card"
+                /></a>
+              </div>
+              <p class="product-title">
+                <a href="#">Наименование товара, которое не более 2 строк</a>
+              </p>
+              <p class="product-price">
+                ХХ ХХХ , $ <span class="price-min">ХХ ХХХ $</span>
+              </p>
+              <button class="product-btn"><b>Кнопка</b></button>
+            </div>
+            <div class="product">
+              <div class="product-img">
+                <a href="#"
+                  ><img src="img/img.jpg" alt="" class="product-img-card"
+                /></a>
+              </div>
+              <p class="product-title">
+                <a href="#">Наименование товара, которое не более 2 строк</a>
+              </p>
+              <p class="product-price">
+                ХХ ХХХ , $ <span class="price-min">ХХ ХХХ $</span>
+              </p>
+              <button class="product-btn"><b>Кнопка</b></button>
+            </div>
+            <div class="product">
+              <div class="product-img">
+                <a href="#"
+                  ><img src="img/img.jpg" alt="" class="product-img-card"
+                /></a>
+              </div>
+              <p class="product-title">
+                <a href="#">Наименование товара, которое не более 2 строк</a>
+              </p>
+              <p class="product-price">
+                ХХ ХХХ , $ <span class="price-min">ХХ ХХХ $</span>
+              </p>
+              <button class="product-btn"><b>Кнопка</b></button>
+            </div>
+          </div>
+          <p class="end-number">2 <b class="end-one">3</b> ... 13 ></p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+  </body>
+</html>
+
+<!-- <div>
+      <a href="http://example.com/" onclick="track(this)">promo</a>
+    </div>
+    <script>
+      function track(t) {
+        fetch("https://httpbin.org/status/200").then(
+          (s) => location.replace(t.href),
+          (err) => console.error(err)
+        );
+        return false;
+      }
+    </script> -->
