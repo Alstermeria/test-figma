@@ -165,9 +165,25 @@ h5 {
 .cost-group {
   padding: 7px;
   font-size: 14px;
+  display: grid;
+}
+
+.cost-group-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 20px;
+}
+
+.cost-text {
+  padding: 2px;
+  color: #000000;
+  opacity: 0.5;
 }
 .range {
-  width: 200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  width: 90%;
   height: 5px;
   border-radius: 4px;
   background-color: rgb(104, 103, 103);
@@ -176,6 +192,7 @@ h5 {
 .range__button_1,
 .range__button_2 {
   position: absolute;
+  top: -5px;
   width: 15px;
   height: 15px;
   cursor: move;
@@ -193,7 +210,8 @@ h5 {
 .range_inpt1,
 .range_inpt2 {
   margin: 20px 0;
-  width: 80px;
+  width: 65%;
+  padding: 6px;
 }
 
 /* checkmark */
@@ -526,9 +544,12 @@ h5 {
     font-size: 10px;
   }
 
+  .cost-group-input {
+    padding: 0 5px;
+  }
+
   .range_inpt1,
   .range_inpt2 {
-    width: 70px;
     font-size: 12px;
   }
 
@@ -620,7 +641,9 @@ h5 {
     width: 200px;
     height: 200px;
   }
-
+  .cost-group-input {
+    padding: 0;
+  }
   .range {
     width: 150px;
   }
@@ -673,16 +696,20 @@ h5 {
     margin-left: 5px;
   }
 
+  .cost-group-input {
+    grid-template-columns: 1fr;
+  }
+
   .range {
     width: 120px;
   }
   .range_inpt1 {
     margin: 10px 30px 10px 0;
-    width: 90px;
+    width: 85px;
   }
 
   .range_inpt2 {
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
     width: 90px;
   }
 
@@ -723,7 +750,6 @@ h5 {
   }
 
   .range_inpt2 {
-    margin: 0 0 10px 0;
     width: 80px;
   }
 }
@@ -735,6 +761,11 @@ h5 {
 
   .range_inpt1 {
     margin: 10px 0 10px 0;
+    width: 70px;
+  }
+
+  .range_inpt2 {
+    width: 65px;
   }
 }
 
@@ -782,10 +813,10 @@ h5 {
   }
   .range_inpt1 {
     margin: 10px 10px 10px 0;
-    width: 70px;
+    width: 85px;
   }
 
   .range_inpt2 {
-    width: 70px;
+    width: 85px;
   }
 }
